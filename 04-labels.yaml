@@ -1,0 +1,14 @@
+apiverstion: 1
+kind: Pod
+metadata:
+  name: font-end
+  labels:
+    project: robot-shop
+    app: front-end
+    environment: development
+    version: v1
+spec:
+  containers: 
+  - name: front-end
+    image: nginx:1.25 
+    
