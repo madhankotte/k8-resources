@@ -4,11 +4,12 @@ metadata:
   name: nginx-pod
   namespace: roboshop-dev
   labels:
-    name: nginx
+    app: nginx
     project: roboshop
 spec:
   containers:
   - name: nginx
-    image: nginx:latest
+    image: nginx:1.25
     ports:
     - containerPort: 80
+    
