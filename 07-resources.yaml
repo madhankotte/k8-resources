@@ -1,4 +1,4 @@
-apivistion: v1
+apiVersion: v1
 kind: Pod
 metadata:
   name: resource-demo
