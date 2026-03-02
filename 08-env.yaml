@@ -1,0 +1,13 @@
+apiverstion: v1
+kind: Pod
+metadata:
+  name: env-demo
+spec:
+  containers: 
+  - name: nginx
+    image: nginx:1.25
+    env:
+    - name: ENVIRONMENT
+      value: "dev"
+    - name: madhan
+      value: "roboshop"
